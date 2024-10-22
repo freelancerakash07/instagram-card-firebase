@@ -1,0 +1,23 @@
+.auth-container{
+    display: flex;
+    justify-content: center;
+
+    .auth-left{
+        position: relative;
+    
+    
+        .slideImg{
+            height: 550px !important;
+            width: 270px !important;
+            object-fit: cover;
+            border-radius: 20px;
+        }
+    
+        .carousel-photo-slaider{
+            position: absolute;
+            left: 150px;
+            top: 20px;
+        }
+    }
+    
+}
